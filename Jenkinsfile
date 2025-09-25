@@ -17,8 +17,8 @@ pipeline {
         stage('Build Frontend') {
             steps {
                 dir("${FRONTEND_DIR}") {
-                    sh 'npm ci'
-                    sh 'npm run build'
+                    bat 'npm ci'
+                    bat 'npm run build'
                 }
             }
         }
@@ -26,7 +26,7 @@ pipeline {
         stage('Build Backend Docker') {
             steps {
                 dir("${BACKEND_DIR}") {
-                    sh 'docker-compose build'
+                    bat 'docker-compose build'
                 }
             }
         }
@@ -34,7 +34,7 @@ pipeline {
         stage('Start Backend Docker') {
             steps {
                 dir("${BACKEND_DIR}") {
-                    sh 'docker-compose up -d'
+                    bat 'docker-compose up -d'
                 }
             }
         }
@@ -55,4 +55,3 @@ pipeline {
         }
     }
 }
-ngrok http 8080
