@@ -4,39 +4,6 @@ import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, ArrowRight
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-br from-neutral-900 to-neutral-950 text-white">
-      {/* Newsletter Section */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10 border-b border-neutral-800">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6 p-6 md:p-8 rounded-2xl bg-gradient-to-r from-primary-900/30 to-primary-800/30 backdrop-blur-sm">
-            <div className="text-center md:text-left">
-              <h3 className="text-xl md:text-2xl font-bold text-white mb-2">Stay Updated</h3>
-              <p className="text-neutral-300 max-w-md">Subscribe to our newsletter for exclusive offers and the latest updates</p>
-            </div>
-            <form className="w-full md:w-auto flex">
-              <div className="relative flex-grow">
-                <input 
-                  type="email" 
-                  placeholder="Your email address" 
-                  className="w-full md:w-64 py-3 px-4 pr-10 rounded-l-lg bg-neutral-800 border border-neutral-700 text-white focus:outline-none focus:ring-2 focus:ring-primary-500"
-                />
-                <button 
-                  type="submit" 
-                  className="absolute right-0 top-0 h-full px-3 text-primary-400 hover:text-primary-300 transition-colors"
-                >
-                  <Send size={18} />
-                </button>
-              </div>
-              <button 
-                type="submit" 
-                className="bg-primary-600 hover:bg-primary-500 text-white py-3 px-6 rounded-r-lg transition-colors flex items-center"
-              >
-                Subscribe
-                <ArrowRight size={16} className="ml-2" />
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
 
       {/* Main Footer */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -45,7 +12,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="bg-gradient-to-br from-primary-500 to-primary-700 p-2 rounded-lg">
-                <img className="w-auto h-8" src="/logo.svg" alt="ShopNow Logo" />
+                <img className="w-auto h-8" src="/store.jpg" alt="ShopNow Logo" />
               </div>
               <h3 className="text-xl font-display font-bold text-white">ShopNow</h3>
             </div>
@@ -154,13 +121,13 @@ const Footer = () => {
                 <div className="bg-neutral-800 p-2 rounded-lg mr-3">
                   <Phone className="h-5 w-5 text-primary-400" />
                 </div>
-                <span className="text-neutral-400">+1 (555) 123-4567</span>
+                <span className="text-neutral-400">Teja was here</span>
               </li>
               <li className="flex items-center">
                 <div className="bg-neutral-800 p-2 rounded-lg mr-3">
                   <Mail className="h-5 w-5 text-primary-400" />
                 </div>
-                <span className="text-neutral-400">2300033296@kluniversity.in</span>
+                <span className="text-neutral-400">pew pew</span>
               </li>
             </ul>
           </div>

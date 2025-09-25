@@ -36,7 +36,7 @@ const Header = () => {
     { name: "Home", path: "/", icon: <Home className="w-5 h-5" /> },
     { name: "Electronics", path: "/electronics", icon: <Zap className="w-5 h-5" /> },
     { name: "Fashion", path: "/fashion", icon: <Shirt className="w-5 h-5" /> },
-    { name: "Stationery", path: "/stationery", icon: <PenTool className="w-5 h-5" /> },
+    { name: "All Needs", path: "/stationery", icon: <PenTool className="w-5 h-5" /> },
   ]
 
   return (
@@ -51,7 +51,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <Link to="/" className="group flex items-center space-x-2 rounded outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2">
               <div className="relative overflow-hidden rounded-lg bg-gradient-to-br from-primary-500 to-primary-700 p-2 transition-all duration-300 group-hover:scale-105">
-                <img className="w-auto h-8" src="/logo.svg" alt="ShopNow Logo" />
+                <img className="w-auto h-8" src="/store.jpg" alt="ShopNow Logo" />
               </div>
               <span className="hidden md:block text-2xl font-display font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-primary-800">ShopNow</span>
             </Link>
