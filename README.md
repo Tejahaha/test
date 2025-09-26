@@ -47,7 +47,7 @@ git push -u origin main
 1. Go to your GitHub repository **Settings** > **Webhooks** > **Add webhook**.
 2. In the **Payload URL** box, enter:
     ```
-    https://<your-ngrok-id>.ngrok-free.app/github_webhook/
+    https://<your-ngrok-id>.ngrok-free.app/github-webhook/
     ```
    > _Replace `<your-ngrok-id>` with your actual Ngrok address._
 
